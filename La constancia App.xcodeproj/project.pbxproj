@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301B5F20200503F5001A10B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F1F200503F5001A10B7 /* AppDelegate.swift */; };
+		301B5F22200503F5001A10B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F21200503F5001A10B7 /* ViewController.swift */; };
+		301B5F25200503F5001A10B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F23200503F5001A10B7 /* Main.storyboard */; };
+		301B5F27200503F5001A10B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F26200503F5001A10B7 /* Assets.xcassets */; };
+		301B5F2A200503F5001A10B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F28200503F5001A10B7 /* LaunchScreen.storyboard */; };
+		301B5F35200503F5001A10B7 /* La_constancia_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F34200503F5001A10B7 /* La_constancia_AppTests.swift */; };
+		301B5F40200503F5001A10B7 /* La_constancia_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F3F200503F5001A10B7 /* La_constancia_AppUITests.swift */; };
+		302DD8502006639200BC6495 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DD84F2006639200BC6495 /* Places.swift */; };
+		302DD8522006696700BC6495 /* GetAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DD8512006696700BC6495 /* GetAPIManager.swift */; };
+		30FE07A32005330500E9C713 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE07A22005330500E9C713 /* MapViewController.swift */; };
+		A876E364EC9A2651EBE2C050 /* Pods_La_constancia_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5738811FF3909F9DA1A46BF8 /* Pods_La_constancia_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301B5F31200503F5001A10B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B5F14200503F5001A10B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301B5F1B200503F5001A10B7;
+			remoteInfo = "La constancia App";
+		};
+		301B5F3C200503F5001A10B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B5F14200503F5001A10B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301B5F1B200503F5001A10B7;
+			remoteInfo = "La constancia App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E7196F63A535DF5CA08C3DC /* Pods-La constancia App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-La constancia App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App.debug.xcconfig"; sourceTree = "<group>"; };
+		301B5F1C200503F5001A10B7 /* La constancia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La constancia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301B5F1F200503F5001A10B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		301B5F21200503F5001A10B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		301B5F24200503F5001A10B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301B5F26200503F5001A10B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301B5F29200503F5001A10B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301B5F2B200503F5001A10B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301B5F30200503F5001A10B7 /* La constancia AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La constancia AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301B5F34200503F5001A10B7 /* La_constancia_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_constancia_AppTests.swift; sourceTree = "<group>"; };
+		301B5F36200503F5001A10B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301B5F3B200503F5001A10B7 /* La constancia AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La constancia AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301B5F3F200503F5001A10B7 /* La_constancia_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_constancia_AppUITests.swift; sourceTree = "<group>"; };
+		301B5F41200503F5001A10B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302DD84F2006639200BC6495 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		302DD8512006696700BC6495 /* GetAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAPIManager.swift; sourceTree = "<group>"; };
+		30FE07A22005330500E9C713 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5738811FF3909F9DA1A46BF8 /* Pods_La_constancia_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_La_constancia_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F469B7603688A037A976765 /* Pods-La constancia App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-La constancia App.release.xcconfig"; path = "Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301B5F19200503F5001A10B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A876E364EC9A2651EBE2C050 /* Pods_La_constancia_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F2D200503F5001A10B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F38200503F5001A10B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301B5F13200503F5001A10B7 = {
+			isa = PBXGroup;
+			children = (
+				301B5F1E200503F5001A10B7 /* La constancia App */,
+				301B5F33200503F5001A10B7 /* La constancia AppTests */,
+				301B5F3E200503F5001A10B7 /* La constancia AppUITests */,
+				301B5F1D200503F5001A10B7 /* Products */,
+				BCADDB5455DDBC64B6852612 /* Pods */,
+				B5DBE8C54934CC4458B447A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		301B5F1D200503F5001A10B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301B5F1C200503F5001A10B7 /* La constancia App.app */,
+				301B5F30200503F5001A10B7 /* La constancia AppTests.xctest */,
+				301B5F3B200503F5001A10B7 /* La constancia AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301B5F1E200503F5001A10B7 /* La constancia App */ = {
+			isa = PBXGroup;
+			children = (
+				30B1DD99200511C300217DB2 /* Core */,
+				30B1DD962005108200217DB2 /* Controllers */,
+				30B1DD942005106500217DB2 /* Models */,
+				30B1DD952005107500217DB2 /* Views */,
+				30B1DD982005109300217DB2 /* Helpers */,
+				301B5F21200503F5001A10B7 /* ViewController.swift */,
+				301B5F26200503F5001A10B7 /* Assets.xcassets */,
+			);
+			path = "La constancia App";
+			sourceTree = "<group>";
+		};
+		301B5F33200503F5001A10B7 /* La constancia AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				301B5F34200503F5001A10B7 /* La_constancia_AppTests.swift */,
+				301B5F36200503F5001A10B7 /* Info.plist */,
+			);
+			path = "La constancia AppTests";
+			sourceTree = "<group>";
+		};
+		301B5F3E200503F5001A10B7 /* La constancia AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				301B5F3F200503F5001A10B7 /* La_constancia_AppUITests.swift */,
+				301B5F41200503F5001A10B7 /* Info.plist */,
+			);
+			path = "La constancia AppUITests";
+			sourceTree = "<group>";
+		};
+		30B1DD942005106500217DB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				302DD84F2006639200BC6495 /* Places.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30B1DD952005107500217DB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				301B5F23200503F5001A10B7 /* Main.storyboard */,
+				301B5F28200503F5001A10B7 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30B1DD962005108200217DB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30FE07A22005330500E9C713 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30B1DD982005109300217DB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30B1DD9B2005131300217DB2 /* Util */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30B1DD99200511C300217DB2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				302DD8512006696700BC6495 /* GetAPIManager.swift */,
+				301B5F2B200503F5001A10B7 /* Info.plist */,
+				301B5F1F200503F5001A10B7 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		30B1DD9B2005131300217DB2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B5DBE8C54934CC4458B447A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5738811FF3909F9DA1A46BF8 /* Pods_La_constancia_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCADDB5455DDBC64B6852612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E7196F63A535DF5CA08C3DC /* Pods-La constancia App.debug.xcconfig */,
+				5F469B7603688A037A976765 /* Pods-La constancia App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		301B5F1B200503F5001A10B7 /* La constancia App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301B5F44200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia App" */;
+			buildPhases = (
+				AF7D9EE567B59D7727858850 /* [CP] Check Pods Manifest.lock */,
+				301B5F18200503F5001A10B7 /* Sources */,
+				301B5F19200503F5001A10B7 /* Frameworks */,
+				301B5F1A200503F5001A10B7 /* Resources */,
+				48E1CA5090DCDCD1CD03A67C /* [CP] Embed Pods Frameworks */,
+				64B968E0CA6DD01C3762832B /* [CP] Copy Pods Resources */,
+				300195E920050B8600A14B36 /* ShellScript */,
+				30FE07A12005180F00E9C713 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "La constancia App";
+			productName = "La constancia App";
+			productReference = 301B5F1C200503F5001A10B7 /* La constancia App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		301B5F2F200503F5001A10B7 /* La constancia AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301B5F47200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia AppTests" */;
+			buildPhases = (
+				301B5F2C200503F5001A10B7 /* Sources */,
+				301B5F2D200503F5001A10B7 /* Frameworks */,
+				301B5F2E200503F5001A10B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301B5F32200503F5001A10B7 /* PBXTargetDependency */,
+			);
+			name = "La constancia AppTests";
+			productName = "La constancia AppTests";
+			productReference = 301B5F30200503F5001A10B7 /* La constancia AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		301B5F3A200503F5001A10B7 /* La constancia AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301B5F4A200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia AppUITests" */;
+			buildPhases = (
+				301B5F37200503F5001A10B7 /* Sources */,
+				301B5F38200503F5001A10B7 /* Frameworks */,
+				301B5F39200503F5001A10B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301B5F3D200503F5001A10B7 /* PBXTargetDependency */,
+			);
+			name = "La constancia AppUITests";
+			productName = "La constancia AppUITests";
+			productReference = 301B5F3B200503F5001A10B7 /* La constancia AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301B5F14200503F5001A10B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Elaniin;
+				TargetAttributes = {
+					301B5F1B200503F5001A10B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					301B5F2F200503F5001A10B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 301B5F1B200503F5001A10B7;
+					};
+					301B5F3A200503F5001A10B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 301B5F1B200503F5001A10B7;
+					};
+				};
+			};
+			buildConfigurationList = 301B5F17200503F5001A10B7 /* Build configuration list for PBXProject "La constancia App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 301B5F13200503F5001A10B7;
+			productRefGroup = 301B5F1D200503F5001A10B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301B5F1B200503F5001A10B7 /* La constancia App */,
+				301B5F2F200503F5001A10B7 /* La constancia AppTests */,
+				301B5F3A200503F5001A10B7 /* La constancia AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301B5F1A200503F5001A10B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B5F2A200503F5001A10B7 /* LaunchScreen.storyboard in Resources */,
+				301B5F27200503F5001A10B7 /* Assets.xcassets in Resources */,
+				301B5F25200503F5001A10B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F2E200503F5001A10B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F39200503F5001A10B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		300195E920050B8600A14B36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0941e0b884f7d344e94bd761517d961462e35b0b 06b90bc41e739991a3683f35d271bd40f9988ba1f342d52fd8aeba769042f23a";
+		};
+		30FE07A12005180F00E9C713 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		48E1CA5090DCDCD1CD03A67C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B968E0CA6DD01C3762832B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7D9EE567B59D7727858850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-La constancia App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301B5F18200503F5001A10B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B5F22200503F5001A10B7 /* ViewController.swift in Sources */,
+				30FE07A32005330500E9C713 /* MapViewController.swift in Sources */,
+				301B5F20200503F5001A10B7 /* AppDelegate.swift in Sources */,
+				302DD8522006696700BC6495 /* GetAPIManager.swift in Sources */,
+				302DD8502006639200BC6495 /* Places.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F2C200503F5001A10B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B5F35200503F5001A10B7 /* La_constancia_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301B5F37200503F5001A10B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301B5F40200503F5001A10B7 /* La_constancia_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301B5F32200503F5001A10B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301B5F1B200503F5001A10B7 /* La constancia App */;
+			targetProxy = 301B5F31200503F5001A10B7 /* PBXContainerItemProxy */;
+		};
+		301B5F3D200503F5001A10B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301B5F1B200503F5001A10B7 /* La constancia App */;
+			targetProxy = 301B5F3C200503F5001A10B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		301B5F23200503F5001A10B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301B5F24200503F5001A10B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		301B5F28200503F5001A10B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301B5F29200503F5001A10B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		301B5F42200503F5001A10B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		301B5F43200503F5001A10B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		301B5F45200503F5001A10B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7196F63A535DF5CA08C3DC /* Pods-La constancia App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/La constancia App/Core/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		301B5F46200503F5001A10B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F469B7603688A037A976765 /* Pods-La constancia App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/La constancia App/Core/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		301B5F48200503F5001A10B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = "La constancia AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La constancia App.app/La constancia App";
+			};
+			name = Debug;
+		};
+		301B5F49200503F5001A10B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = "La constancia AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La constancia App.app/La constancia App";
+			};
+			name = Release;
+		};
+		301B5F4B200503F5001A10B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = "La constancia AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La constancia App";
+			};
+			name = Debug;
+		};
+		301B5F4C200503F5001A10B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RQFGG78B4;
+				INFOPLIST_FILE = "La constancia AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniin.La-constancia-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La constancia App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301B5F17200503F5001A10B7 /* Build configuration list for PBXProject "La constancia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B5F42200503F5001A10B7 /* Debug */,
+				301B5F43200503F5001A10B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301B5F44200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B5F45200503F5001A10B7 /* Debug */,
+				301B5F46200503F5001A10B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301B5F47200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B5F48200503F5001A10B7 /* Debug */,
+				301B5F49200503F5001A10B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301B5F4A200503F5001A10B7 /* Build configuration list for PBXNativeTarget "La constancia AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301B5F4B200503F5001A10B7 /* Debug */,
+				301B5F4C200503F5001A10B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301B5F14200503F5001A10B7 /* Project object */;
+}

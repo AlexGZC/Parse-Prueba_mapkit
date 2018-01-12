@@ -4,7 +4,9 @@ PODS:
     - Fabric (~> 1.7.2)
   - Fabric (1.7.2)
   - Kingfisher (4.3.1)
-  - SwiftLint (0.24.0)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
   - SwiftyBeaver (1.4.3)
   - SwiftyJSON (4.0.0)
 
@@ -13,7 +15,7 @@ DEPENDENCIES:
   - Crashlytics
   - Fabric
   - Kingfisher (~> 4.0)
-  - SwiftLint
+  - NVActivityIndicatorView
   - SwiftyBeaver
   - SwiftyJSON
 
@@ -22,10 +24,10 @@ SPEC CHECKSUMS:
   Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
   Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
   Kingfisher: 75541c4b62f02e1fde6f9772303de3d9ebe8f5b3
-  SwiftLint: a014c92b4664e8b13f380f8640a51bb1733778ba
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
   SwiftyBeaver: e10b1668e0512229c36c34769b97eed3dfae2ca3
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: e855b3cf6f21ed50e4bce7dff2583c3d825ecc0e
+PODFILE CHECKSUM: dd5b39c826de87a70bf2ce7a30a6416178658e85
 
 COCOAPODS: 1.3.1

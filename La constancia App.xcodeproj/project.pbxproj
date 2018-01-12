@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		301B5F20200503F5001A10B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F1F200503F5001A10B7 /* AppDelegate.swift */; };
-		301B5F22200503F5001A10B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F21200503F5001A10B7 /* ViewController.swift */; };
 		301B5F25200503F5001A10B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F23200503F5001A10B7 /* Main.storyboard */; };
 		301B5F27200503F5001A10B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F26200503F5001A10B7 /* Assets.xcassets */; };
 		301B5F2A200503F5001A10B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B5F28200503F5001A10B7 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,12 @@
 		301B5F40200503F5001A10B7 /* La_constancia_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B5F3F200503F5001A10B7 /* La_constancia_AppUITests.swift */; };
 		302DD8502006639200BC6495 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DD84F2006639200BC6495 /* Places.swift */; };
 		302DD8522006696700BC6495 /* GetAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DD8512006696700BC6495 /* GetAPIManager.swift */; };
+		30BE49602007AAEF003468A1 /* GeneralAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE495F2007AAEF003468A1 /* GeneralAttributes.swift */; };
+		30BE49832007C298003468A1 /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE49822007C298003468A1 /* StarbucksAnnotation.swift */; };
+		30BE49852007C321003468A1 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE49842007C321003468A1 /* AnnotationView.swift */; };
+		30BE49A72007C6AB003468A1 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BE49A52007C6AA003468A1 /* CustomCalloutView.xib */; };
+		30BE49A82007C6AB003468A1 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE49A62007C6AB003468A1 /* CustomCalloutView.swift */; };
+		30BE49AA2007D9DF003468A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE49A92007D9DF003468A1 /* ViewController.swift */; };
 		30FE07A32005330500E9C713 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE07A22005330500E9C713 /* MapViewController.swift */; };
 		A876E364EC9A2651EBE2C050 /* Pods_La_constancia_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5738811FF3909F9DA1A46BF8 /* Pods_La_constancia_App.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +46,6 @@
 		1E7196F63A535DF5CA08C3DC /* Pods-La constancia App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-La constancia App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App.debug.xcconfig"; sourceTree = "<group>"; };
 		301B5F1C200503F5001A10B7 /* La constancia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La constancia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		301B5F1F200503F5001A10B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		301B5F21200503F5001A10B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		301B5F24200503F5001A10B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301B5F26200503F5001A10B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301B5F29200503F5001A10B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,12 @@
 		301B5F41200503F5001A10B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302DD84F2006639200BC6495 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		302DD8512006696700BC6495 /* GetAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAPIManager.swift; sourceTree = "<group>"; };
+		30BE495F2007AAEF003468A1 /* GeneralAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralAttributes.swift; sourceTree = "<group>"; };
+		30BE49822007C298003468A1 /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
+		30BE49842007C321003468A1 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		30BE49A52007C6AA003468A1 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		30BE49A62007C6AB003468A1 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		30BE49A92007D9DF003468A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30FE07A22005330500E9C713 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5738811FF3909F9DA1A46BF8 /* Pods_La_constancia_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_La_constancia_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F469B7603688A037A976765 /* Pods-La constancia App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-La constancia App.release.xcconfig"; path = "Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +125,6 @@
 				30B1DD942005106500217DB2 /* Models */,
 				30B1DD952005107500217DB2 /* Views */,
 				30B1DD982005109300217DB2 /* Helpers */,
-				301B5F21200503F5001A10B7 /* ViewController.swift */,
 				301B5F26200503F5001A10B7 /* Assets.xcassets */,
 			);
 			path = "La constancia App";
@@ -142,6 +151,8 @@
 		30B1DD942005106500217DB2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				30BE49842007C321003468A1 /* AnnotationView.swift */,
+				30BE49822007C298003468A1 /* StarbucksAnnotation.swift */,
 				302DD84F2006639200BC6495 /* Places.swift */,
 			);
 			path = Models;
@@ -150,6 +161,8 @@
 		30B1DD952005107500217DB2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				30BE49A62007C6AB003468A1 /* CustomCalloutView.swift */,
+				30BE49A52007C6AA003468A1 /* CustomCalloutView.xib */,
 				301B5F23200503F5001A10B7 /* Main.storyboard */,
 				301B5F28200503F5001A10B7 /* LaunchScreen.storyboard */,
 			);
@@ -160,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				30FE07A22005330500E9C713 /* MapViewController.swift */,
+				30BE49A92007D9DF003468A1 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 		30B1DD99200511C300217DB2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				30BE495F2007AAEF003468A1 /* GeneralAttributes.swift */,
 				302DD8512006696700BC6495 /* GetAPIManager.swift */,
 				301B5F2B200503F5001A10B7 /* Info.plist */,
 				301B5F1F200503F5001A10B7 /* AppDelegate.swift */,
@@ -219,8 +234,7 @@
 				301B5F1A200503F5001A10B7 /* Resources */,
 				48E1CA5090DCDCD1CD03A67C /* [CP] Embed Pods Frameworks */,
 				64B968E0CA6DD01C3762832B /* [CP] Copy Pods Resources */,
-				300195E920050B8600A14B36 /* ShellScript */,
-				30FE07A12005180F00E9C713 /* ShellScript */,
+				300F0F6E2009372E0068022F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -318,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BE49A72007C6AB003468A1 /* CustomCalloutView.xib in Resources */,
 				301B5F2A200503F5001A10B7 /* LaunchScreen.storyboard in Resources */,
 				301B5F27200503F5001A10B7 /* Assets.xcassets in Resources */,
 				301B5F25200503F5001A10B7 /* Main.storyboard in Resources */,
@@ -341,9 +356,9 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		300195E920050B8600A14B36 /* ShellScript */ = {
+		300F0F6E2009372E0068022F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -352,20 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0941e0b884f7d344e94bd761517d961462e35b0b 06b90bc41e739991a3683f35d271bd40f9988ba1f342d52fd8aeba769042f23a";
-		};
-		30FE07A12005180F00E9C713 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "";
 		};
 		48E1CA5090DCDCD1CD03A67C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -376,6 +378,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-La constancia App/Pods-La constancia App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -383,6 +386,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -393,7 +397,7 @@
 		};
 		64B968E0CA6DD01C3762832B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -431,10 +435,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301B5F22200503F5001A10B7 /* ViewController.swift in Sources */,
+				30BE49852007C321003468A1 /* AnnotationView.swift in Sources */,
+				30BE49602007AAEF003468A1 /* GeneralAttributes.swift in Sources */,
 				30FE07A32005330500E9C713 /* MapViewController.swift in Sources */,
+				30BE49AA2007D9DF003468A1 /* ViewController.swift in Sources */,
 				301B5F20200503F5001A10B7 /* AppDelegate.swift in Sources */,
+				30BE49A82007C6AB003468A1 /* CustomCalloutView.swift in Sources */,
 				302DD8522006696700BC6495 /* GetAPIManager.swift in Sources */,
+				30BE49832007C298003468A1 /* StarbucksAnnotation.swift in Sources */,
 				302DD8502006639200BC6495 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

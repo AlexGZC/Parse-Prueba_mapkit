@@ -49,12 +49,37 @@
                         <viewLayoutGuide key="safeArea" id="qYK-w9-JoR"/>
                     </view>
                     <connections>
-                        <outlet property="mapkit" destination="Fl0-o8-MBk" id="hgy-c5-P6b"/>
+                        <outlet property="mapkit" destination="Fl0-o8-MBk" id="BaI-hr-IYg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ioL-4x-qVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1724" y="35.532233883058474"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qMq-kl-e5b">
+            <objects>
+                <viewController storyboardIdentifier="animeDetails" id="5Aq-yN-dr7" customClass="ViewController" customModule="La_constancia_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sky-Ri-XpB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dr-F2-TWP">
+                                <rect key="frame" x="164" y="287" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="CERRAR:" destination="5Aq-yN-dr7" eventType="touchUpInside" id="TNx-CB-oan"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8Z7-VC-EVb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XbF-fq-CCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2636" y="36"/>
         </scene>
     </scenes>
 </document>

@@ -14,7 +14,7 @@ target 'La constancia App' do
   pod 'Kingfisher', '~> 4.0'
   pod 'Fabric'
   pod 'Crashlytics'
-  pod 'SwiftLint'
+  pod 'NVActivityIndicatorView'
 
 
 
